@@ -5,10 +5,7 @@ class Solution {
         Set<Integer> s= new HashSet<>();
         for (int n: nums){
             s.add(n);
-
         }
-        return  nums.length != s.size();
-
-        
+        return nums.length!=s.size();
     }
 }
