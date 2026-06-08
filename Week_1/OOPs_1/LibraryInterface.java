@@ -1,4 +1,4 @@
-package Week_1.OOPs;
+package Week_1.OOPs_1;
 public class LibraryInterface {
     public static void main(String[] args) {
         KidUsers k1 = new KidUsers(10, "Kids");

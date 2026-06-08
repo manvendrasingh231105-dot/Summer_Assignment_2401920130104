@@ -1,4 +1,4 @@
-package Week_1.OOPs;
+package Week_1.OOPs_1;
 
 class AdultUsers implements LibraryUser {
     int age;
