@@ -6,7 +6,7 @@ public class Test{
         Compartment[] compartments=new Compartment[10];
         Random random=new Random();
         for (int i=0;i<compartments.length;i++) {
-            int choice=random.nextInt(4) + 1; // 1 to 4
+            int choice=random.nextInt(4) + 1;
             switch(choice){
                 case 1:
                     compartments[i]=new FirstClass();
