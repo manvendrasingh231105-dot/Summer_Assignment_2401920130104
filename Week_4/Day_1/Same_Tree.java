@@ -16,7 +16,7 @@ package Week_4.Day_1;
  * }
  */
 class Solution {
-    public boolean isSameTree(TreeNode p, TreeNode q) {
+    public boolean isSameTree(TreeNode p,TreeNode q){
         if(p==null && q==null){
             return true;
         }
